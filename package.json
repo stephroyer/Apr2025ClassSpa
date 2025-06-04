@@ -1,0 +1,16 @@
+{
+  "name": "savvy-spa-starter",
+  "version": "1.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "1.19.1"
+  }
+}
