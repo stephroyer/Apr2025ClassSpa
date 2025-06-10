@@ -16,7 +16,7 @@ function render(state = store.home) {
     router.updatePageLinks();
 }
 
-router.on("/", () => render()).resolve();
+
 
 router.on({
   "/": () => render(),
@@ -38,7 +38,7 @@ router.on({
       console.log(`View ${view} not defined`);
     }
   }
-});
+}).resolve();
 
 
 // add menu toggle to bars icon in nav bar
